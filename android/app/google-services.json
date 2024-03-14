@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "145629195924",
+    "project_id": "hashtek-intern",
+    "storage_bucket": "hashtek-intern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145629195924:android:e516c0745f2d222ef9ce81",
+        "android_client_info": {
+          "package_name": "com.example.hashtek_intern_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-X8FgHXplMuxv2BQsjWtp7pp4bWk8J78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

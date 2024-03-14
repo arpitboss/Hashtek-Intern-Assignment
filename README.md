@@ -1,16 +1,61 @@
-# hashtek_intern_assignment
+# Hashtek_Solutions_intern_assignment
 
-A new Flutter project.
 
-## Getting Started
+This App is a simple Flutter application that allows users to sign up, log in, and view their profile. It also includes a feature to select a country, displaying its name and flag.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- User Authentication: Sign up and log in with email and password.
+- Profile Page: View user information and log out.
+- Country Selection: Choose a country and display its name and flag.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Include screenshots of your app here.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/arpitboss/Hashtek-Intern-Assignment.git
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd MyApp
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+
+4. Run the app:
+
+   ```bash
+   flutter run
+
+## Usage
+
+1. Sign Up: Register a new account using your email and password.
+2. Log In: Sign in to your account with your credentials.
+3. Profile Page: View your profile information and log out.
+4. Country Selection: Tap on the "Country" tile to choose your country.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature/my-feature`).
+6. Open a pull request.
+
+## Acknowledgements
+
+- Flutter
+- Firebase
+- Get package
+
+## License
+MIT

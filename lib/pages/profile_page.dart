@@ -33,7 +33,6 @@ class _ProfilePageState extends State<ProfilePage> {
         child: SizedBox(
           height: MediaQuery.of(context).size.height,
           child: SingleChildScrollView(
-            key: const ValueKey<String>('profilePage'),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
@@ -207,19 +206,7 @@ class _ProfilePageState extends State<ProfilePage> {
         title: Text(title),
         subtitle: Text(countryName),
         trailing: Image.asset(selectedCountry),
-        onTap: () {
-          Navigator.of(context).push(PageRouteBuilder(
-            pageBuilder: (context, animation, secondaryAnimation) =>
-                CountrySelectionScreen(selectedCountry: selectedCountry),
-            transitionsBuilder:
-                (context, animation, secondaryAnimation, child) {
-              return FadeTransition(
-                opacity: animation,
-                child: child,
-              );
-            },
-          ));
-        },
+        onTap: onTap,
       ),
     );
   }

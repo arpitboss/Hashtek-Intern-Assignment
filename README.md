@@ -9,9 +9,6 @@ This App is a simple Flutter application that allows users to sign up, log in, a
 - Profile Page: View user information and log out.
 - Country Selection: Choose a country and display its name and flag.
 
-## Screenshots
-
-Include screenshots of your app here.
 
 ## Installation
 
